@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Testing(failed)">
+    <classes>
+      <class name="tests.TestBusiness">
+        <methods>
+          <include name="testAddNewBusiness"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testViewDetailsAndEdit"/>
+          <include name="testDeleteBusinessOption"/>
+        </methods>
+      </class> <!-- tests.TestBusiness -->
+      <class name="tests.TestInvoiceFac">
+        <methods>
+          <include name="testSelectClientField"/>
+          <include name="testEditOption"/>
+          <include name="testSetPeriodResetDates"/>
+          <include name="testChangedStatus"/>
+          <include name="tearDown"/>
+          <include name="testAddNewInvoice"/>
+          <include name="testDateFieldTo"/>
+          <include name="testPreviewOption"/>
+          <include name="testResetButton"/>
+          <include name="testAllClients"/>
+          <include name="testSetPeriodThisMonth"/>
+          <include name="testDateFieldFrom"/>
+          <include name="testDeleteInvoice"/>
+          <include name="setUp"/>
+          <include name="testSetPeriodLastMonth"/>
+        </methods>
+      </class> <!-- tests.TestInvoiceFac -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
